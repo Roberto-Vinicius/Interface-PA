@@ -36,7 +36,7 @@
        <widget class="QTableWidget" name="tabelaLivros">
         <property name="font">
          <font>
-          <bold>true</bold>
+          <bold>false</bold>
          </font>
         </property>
         <property name="autoFillBackground">
@@ -97,7 +97,7 @@
        <widget class="QTableWidget" name="tabelaDvds">
         <property name="font">
          <font>
-          <bold>true</bold>
+          <bold>false</bold>
          </font>
         </property>
         <property name="verticalScrollBarPolicy">
@@ -158,7 +158,7 @@
        <widget class="QTableWidget" name="tabelaCds">
         <property name="font">
          <font>
-          <bold>true</bold>
+          <bold>false</bold>
          </font>
         </property>
         <property name="verticalScrollBarPolicy">

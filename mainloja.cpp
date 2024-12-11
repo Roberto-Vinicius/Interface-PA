@@ -24,9 +24,9 @@ MainLoja::MainLoja(QWidget *parent)
     ui->labelCds->setAlignment(Qt::AlignCenter);
     ui->labelDvds->setAlignment(Qt::AlignCenter);
     // Cor de fundo
-    ui->labelLivros->setStyleSheet("background: lightgray");
-    ui->labelCds->setStyleSheet("background: lightgray");
-    ui->labelDvds->setStyleSheet("background: lightgray");
+    ui->labelLivros->setStyleSheet("background: #94b0b7;");
+    ui->labelCds->setStyleSheet("background: #94b0b7;");
+    ui->labelDvds->setStyleSheet("background: #94b0b7;");
 
     // Barra de status
     statusBar()->insertWidget(0, new QLabel(tr("Total de itens: ")));
@@ -49,7 +49,7 @@ MainLoja::MainLoja(QWidget *parent)
     }
 
     // Estilizando os cabeçalhos
-    const QString headerStyle = "QHeaderView::section { text-align:center; background-color:lightgray; }";
+    const QString headerStyle = "QHeaderView::section { text-align:center; background-color:#94b0b7; color: black; font-weight: bold }";
     ui->tabelaLivros->horizontalHeader()->setStyleSheet(headerStyle);
     ui->tabelaCds->horizontalHeader()->setStyleSheet(headerStyle);
     ui->tabelaDvds->horizontalHeader()->setStyleSheet(headerStyle);
